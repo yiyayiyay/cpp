@@ -5,7 +5,7 @@ int main()
 {	
 
 	int sum=0;
-	for (int val=1;val<=10;++val)
+	for (int val=-100;val<=100;++val)
 		sum +=val;
 	std::cout <<"将0到10的和为："<< sum <<std::endl ;
 
