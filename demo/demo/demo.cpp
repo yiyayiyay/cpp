@@ -4,10 +4,12 @@
 int main()
 {	
 
-	int sum=0;
-	for (int val=-100;val<=100;++val)
+	int val=0,sum=0;
+	std::cout <<"请输入任意多个数，输入end结束"<<std::endl ;
+
+	while (std::cin >>val)
 		sum +=val;
-	std::cout <<"将-100到100的和为："<< sum <<std::endl ;
+	std::cout <<"sum is  "<< sum <<std::endl ;
 
 	/*while (val>=0)
 	{
