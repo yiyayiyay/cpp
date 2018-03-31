@@ -3,12 +3,14 @@
 
 int main()
 {
-	int sum=0,val=1;
-	while (val<=10)
+	int val=10;
+	std::cout <<"将0到10从大到小排序为：";
+	while (val>=0)
 	{
-		sum+=val;
-		++val;
+		std::cout << val<<",";
+		--val;
+	
 	}
-	std::cout <<"sum of 1 to 10 inclusive is : "<< sum<<std::endl;
+	std::cout <<std::endl;
 	return 0;
 }
